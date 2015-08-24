@@ -1,0 +1,14 @@
+<ion-view view-title="Tasks">
+  <ion-content>
+    <h1>Tasks</h1>
+    <ion-list>
+        <ion-item ng-repeat="task in tasks">
+            <label class="checkbox">
+                <input type="checkbox">
+                {{task.title}}
+            </label>
+        </ion-item>
+    </ion-list>
+</ion-content>
+</ion-view>
+ <!--href="#/app/tasks/{{task.id}}"-->
